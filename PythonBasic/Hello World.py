@@ -6,3 +6,4 @@ def power(num_1, num_2):     # get input value
     return result         		   # provide the result
 
 
+print("Hello, world")
