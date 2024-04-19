@@ -2,4 +2,4 @@
 
 name = ["Murzik", "Barsik", "Pantera"]
 
-print(name)
+print(', '.join(name))
