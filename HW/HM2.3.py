@@ -1,4 +1,6 @@
-Dictionary_output = {'Ukraine': 'Kyiv', 'Spain': 'Madrid', 'Italy': 'Rome'}
+contries_list = ['Ukraine', 'Spain', 'Italy']
 
-for key, value in Dictionary_output.items():
-        print(key, ":", value)
+dictionary_output = {contries_list[0]: 'Kyiv', contries_list[1]: 'Madrid', contries_list[2]: 'Rome'}
+
+for key, value in dictionary_output.items():
+    print(f"{key}: {value}")
