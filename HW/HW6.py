@@ -6,3 +6,5 @@ for i in range(height):
     for j in range(width):
         print(character, end='')
     print()
+
+
