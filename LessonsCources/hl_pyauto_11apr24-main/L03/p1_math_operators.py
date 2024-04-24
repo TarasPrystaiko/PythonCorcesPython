@@ -5,10 +5,10 @@
 # print(4 - 2)
 # print(4 * 2)
 # print(5 / 2)
-# print(5 // 2)
-# print(5 % 2)
+# print(5 // 2)  #Цілочисельне ділення (Обчислення неповної частки від ділення)
+# print(5 % 2)  #Обчислення остачі від ділення
 # print(4 % 2)
-# print(2 ** 3)
+# print(2 ** 3)  #Піднесення до степеня
 # print(4 ** 0.5)
 # print(-2 ** 2)
 # print(2 ** 2)
@@ -35,9 +35,9 @@
 
 # ######################################################################################################################
 # # Addition and multiplication with strings
-str1 = "Hello "
-str2 = ", worlds"
-# print(str1 + str2)
-print(str1 * 3)
-print(3 * str1)
-print('Q' + (-3) * str1 + 'Q')  # ''
+# str1 = "Hello "
+# str2 = ", worlds"
+# # print(str1 + str2)
+# print(str1 * 3)
+# print(3 * str1)
+# print('Q' + (-3) * str1 + 'Q')  # ''
