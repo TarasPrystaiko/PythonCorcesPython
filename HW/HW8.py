@@ -24,3 +24,4 @@ for i in range(row-1//2, min-1, -1):
         else:
             print(" ", end="")
     print()
+
