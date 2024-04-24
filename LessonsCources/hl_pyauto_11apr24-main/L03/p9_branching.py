@@ -11,7 +11,7 @@ Ternary operator
 # print("After if")
 
 
-# status_code = 500
+# status_code = 404
 #
 # if status_code == 404:
 #     print("Page not found")
@@ -42,20 +42,20 @@ Ternary operator
 # else:
 #     print("Something else")
 # print("After if")
-
-lst = [1, 2, 3]
-lst = []
-#lst = None
+#
+# lst = [1, 2, 3]
+# lst = []
+# lst = None
 # if lst != []:
 #     print("Processing")
 
-if not lst and lst is not None:
-    print("Processing")
-
-a = 3
-if a > 10:
-    b = 34
-else:
-    b = 100
-
-b = 34 if a > 10 else 100
+# if not lst and lst is not None:
+#     print("Processing")
+#
+# a = 3
+# if a > 10:
+#     b = 34
+# else:
+#     b = 100
+#
+# b = 34 if a > 10 else 100

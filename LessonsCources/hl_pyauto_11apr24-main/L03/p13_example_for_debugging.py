@@ -10,6 +10,7 @@ def is_even(number):
 print("Before debug")
 lst = [4, 5, 2, 5, 2, 8, 4, 8, 1, 5]
 
+
 squares = []
 for number in lst:
     if is_even(number):

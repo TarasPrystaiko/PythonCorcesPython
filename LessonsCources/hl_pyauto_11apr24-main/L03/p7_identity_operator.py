@@ -1,4 +1,4 @@
-# # Identity (Тождественности)
+# # Identity The operators is and is not test for an object’s identity: x is y is true if and only if x and y are the same object. An Object’s identity is determined using the id() function. x is not y yields the inverse truth value. [4]
 a = [1, 3, 5]
 b = [1, 3, 5]
 c = a

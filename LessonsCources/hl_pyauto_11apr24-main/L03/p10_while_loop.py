@@ -13,14 +13,20 @@
 
 number_calibration = 0
 i = 0
-while True:
-    packet = read_packet()
-    if packet.status == 'Need calibration':
-        calibrate()
-    if packet.status == 'Calibrated':
-        number_calibration += 1
-        if number_calibration == 3:
-            break
+
+
+def read_packet():
+    pass
+
+
+# while True:
+#     packet = read_packet()
+#     if packet.status == 'Need calibration':
+#         calibrate()
+#     if packet.status == 'Calibrated':
+#         number_calibration += 1
+#         if number_calibration == 3:
+#             break
 
 # do
 # loop body
