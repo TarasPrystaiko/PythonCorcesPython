@@ -9,7 +9,7 @@
 
 # Slices
 string_for_slice = '0123456789'
-# print(string_for_slice[0:2])
+print(string_for_slice[0:2])
 # print(string_for_slice[4:7])
 # print(string_for_slice[3:])
 # print(string_for_slice[:7])

@@ -17,7 +17,7 @@ String comparison
 # Line2
 # """
 # print(repr(multi_line))
-#
+
 # string_name = "Metro staion 'Kyivska'"
 # string_name2 = 'Metro staion \'Kyivska\''
 # path = "C:\\new_directory"
