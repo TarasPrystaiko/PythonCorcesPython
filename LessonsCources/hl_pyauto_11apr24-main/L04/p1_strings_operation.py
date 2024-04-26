@@ -46,19 +46,19 @@ String comparison
 # string_name = "Metro station 'Kyivska'"
 # print(string_name[0])
 # print(string_name[2])
-# print(string_name[len(string_name) - 1])
+# print(string_name[len(string_name) - 2])
 # print(string_name[-1])
 # print(string_name[-5])
-#
-# string_name[0] = 'a'
+
+# string_name[0] = 'M'
 #
 # a = 5
 # a = 10
 
-str1 = 'Apple'
-str2 = 'apple'
-print(str1 > str2)
-
+# str1 = 'Apple'
+# str2 = 'apple'
+# print(str1 > str2)
+#
 str1 = 'apple'
 str2 = 'apple1'
 print(str1 > str2)

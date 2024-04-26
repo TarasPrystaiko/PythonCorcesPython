@@ -1,3 +1,8 @@
+# Task5:
+# #Output the maximum number of 3 user-entered numbers.
+# DO NOT use built-in functions. Use only flow control instructions (ifs, loops)
+
+# Solution5:
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 num3 = int(input("Enter the third number: "))
