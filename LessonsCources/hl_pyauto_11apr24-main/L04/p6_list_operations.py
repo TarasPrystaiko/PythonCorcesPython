@@ -30,7 +30,7 @@ Deleting objects and lists elements
 # print(lst3)
 
 lst = ['a', 'b', 'c', 'd']
-
+#
 # for element in lst:
 #     print(element)
 
@@ -38,7 +38,7 @@ lst = ['a', 'b', 'c', 'd']
 #     print(lst[index])
 
 # print(list(enumerate(lst, start=1)))
-#
+# #
 # for index, value in enumerate(lst, start=1):
 #     print(f"Line {index} is '{value}'")
 
@@ -71,9 +71,9 @@ lst = ['a', 'b', 'c', 'd']
 # del a
 # print(a)
 
-lst = ['a', 'b', 'c', 'd']
-print(lst)
-del lst[0]
-print(lst)
-lst.append('QQQ')
-print(lst)
+# lst = ['a', 'b', 'c', 'd']
+# print(lst)
+# del lst[0]
+# print(lst)
+# lst.append('QQQ')
+# print(lst)

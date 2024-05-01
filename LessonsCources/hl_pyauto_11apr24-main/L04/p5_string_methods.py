@@ -1,8 +1,8 @@
 # Get methods of object
 str = "Qwerty"
-#print(dir(str))
+# print(dir(str))
 # for method in dir(str):
-#     if not method.startswith('__'):
+#     # if not method.startswith('__'):
 #         print(method)
 
 
@@ -20,8 +20,8 @@ Position in string
 # print("abcdef".endswith(('def', 'qwe')))
 # print("abcdef".endswith('cd', 1, 4))
 # print("abcdefa".find('a'))
-# print("abcdefa".find('q'))
-# print("abcadefa".find('a', 2, 4))
+# print("abcdefa".rfind('a'))
+# print("abcadefa".find('a', 1, 4))
 # print("abcdefa".index('a'))
 # print("abcdefa".index('q'))
 # print("abcadefa".index('a', 2, 4))
@@ -58,7 +58,7 @@ Justification
     zfill
 """
 # print("Justification")
-# print("abc".center(13, '*'))
+# print("abc".center(13, '$'))
 # print("abc".rjust(13, '*'))
 # print("abc".ljust(13, '*'))
 # print("-34".zfill(12))
@@ -77,6 +77,7 @@ Combination/separation
 # print("a b  c".split())
 # print("a-b-c".split('-'))
 # print("docs.python.org/3/library/stdtypes.html".split('/', maxsplit=1))
+# print("docs.python.org/3/library/stdtypes.html".split('/', maxsplit=2))
 # print("a b c".rsplit())
 # print("a b c".rsplit(maxsplit=1))
 # multi = """Line1
@@ -96,7 +97,7 @@ Removing whitespaces
     rstrip
 """
 # print("Removing whitespaces")
-# print(" ab cd  \t\n".strip())
+# print(" abcd  \t\n".strip())
 # print("____abcd_____".strip('_'))
 # print("____abcd_____".lstrip('_'))
 # print("____abcd_____".rstrip('_'))
@@ -194,6 +195,6 @@ Output
 # string = "   AbCdE    "
 # print(string.strip().lower().replace('ab', 'xy'))
 #
-# n = 3
-# number_of_a = ('AB' * n).lower().count('a')
-# print(number_of_a)
+n = 3
+number_of_a = ('AB' * n).lower().count('a')
+print(number_of_a)

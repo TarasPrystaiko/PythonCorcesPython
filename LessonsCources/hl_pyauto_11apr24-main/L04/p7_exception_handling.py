@@ -11,10 +11,10 @@ while True:
         try:
             number = int(user_input)
             print(number * number)
-            raise Exception('Successfull exception')
+
         except ValueError:
-            print('Entered value can"t be casted to int')
-        except Exception:
+            raise Exception('Entered value can"t be casted to int')
+        except KeyError:
             print('Caught')
         else:
             print('Successfully calculated')
