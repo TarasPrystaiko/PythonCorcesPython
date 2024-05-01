@@ -31,13 +31,13 @@ print(is_valid_email(email2))
 print(is_valid_email(email3))
 print(is_valid_email(email4))
 print(is_valid_email(email5))
-#
+
+
+
 # def main():
 #     while True:
-#         # Get user input
 #         email = input("Enter an email address: ")
 #
-#         # Call the function and check if the email is valid
 #         if is_valid_email(email):
 #             print("Valid email address.")
 #             break
