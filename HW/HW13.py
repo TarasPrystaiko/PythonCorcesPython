@@ -19,7 +19,7 @@ def is_valid_email(email):
         return False
 
 
-# Test cases
+#cases
 email1 = "user@example.com"
 email2 = "user@@example.com"
 email3 = "@example.com"
@@ -31,3 +31,18 @@ print(is_valid_email(email2))
 print(is_valid_email(email3))
 print(is_valid_email(email4))
 print(is_valid_email(email5))
+#
+# def main():
+#     while True:
+#         # Get user input
+#         email = input("Enter an email address: ")
+#
+#         # Call the function and check if the email is valid
+#         if is_valid_email(email):
+#             print("Valid email address.")
+#             break
+#         else:
+#             print("Invalid email address. Try again.")
+#
+#
+# main()
