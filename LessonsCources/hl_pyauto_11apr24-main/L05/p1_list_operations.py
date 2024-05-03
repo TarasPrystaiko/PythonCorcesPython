@@ -80,11 +80,11 @@ Built-in functions: min, max, sum, sorted, reversed
 # print(lst is reversed_list)
 
 
-lst = [1, 2, 4.6, -1, 10]
-sorted_list = sorted(lst, reverse=True)
-
-# for item in sorted_list:
-#     print(item)
-
-print(sorted_list)
-print(sorted_list is lst)
+# lst = [1, 2, 4.6, -1, 10]
+# sorted_list = sorted(lst, reverse=True)
+#
+# # for item in sorted_list:
+# #     print(item)
+#
+# print(sorted_list)
+# print(sorted_list is lst)
