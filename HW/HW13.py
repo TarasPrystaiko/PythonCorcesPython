@@ -46,3 +46,14 @@ print(is_valid_email(email5))
 #
 #
 # main()
+
+# email = ""
+# result = None
+#
+# if email[0] == '@':
+#     result = False
+# elif email[-1] == '.':
+#     result = False
+# else:
+#     result = True
+#     print(result)
