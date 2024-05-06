@@ -47,7 +47,7 @@ class TestMultipleGoods:
             PlusButton = self.driver.find_element(By.XPATH, "//button[@data-form-quantity-control = 'plus']")
             actions.click(PlusButton)
             actions.perform()
-            time.sleep(1)  # Add a short delay between clicks to avoid overwhelming the application
+            time.sleep(1)  # Add a short delay betwe en clicks to avoid overwhelming the application
 
         proceed = self.driver.find_element(By.XPATH,"//button[@class = 'btn btn-default']")
         actions.click(proceed)

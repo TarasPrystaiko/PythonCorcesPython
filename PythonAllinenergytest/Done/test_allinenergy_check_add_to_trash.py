@@ -71,5 +71,6 @@ class TestOrder:
         # #FinalOrderL= self.driver.find_element(By.XPATH, "//input[@value = 'Підтвердити заказ']").click()
         time.sleep(2)
 
+
     def teardown_method(self):
         self.driver.quit()
