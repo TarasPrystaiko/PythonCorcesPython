@@ -1,4 +1,23 @@
+#There's a string with email address.
 
+# Print True if the string is a valid address, otherwise False.
+#
+# Valid address is considered:
+#
+# - '@' comes before '.'
+#
+# - the string does not start with '@' and does not end with '.'
+#
+# - symbols except '@' and '.' should be letters and decimal digits
+#
+# - containing only one '@' and only one '.'
+#
+# Specify strings for testing your code in comments.
+#
+# DO NOT use regular expressions.
+#
+#Output
+# email = "aaa@bbb.ccc"  # True
 def is_valid_email(email):
     dog_count = 0
     dot_count = 0

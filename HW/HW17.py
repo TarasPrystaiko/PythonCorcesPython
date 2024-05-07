@@ -1,3 +1,19 @@
+# There is a two-dimensional list of Latin letters. Sort the letters by columns.
+#
+# We assume that the list is rectangular.
+#
+# DO NOT use built-in functions map and zip.
+#
+#Output
+# [['a', 'c', 'e']
+#  ['f', 'b', 'a']
+#  ['a', 'n', 'k']
+#  ['e', 'l', 'i']]
+# # ->
+# [['a', 'b', 'a']
+#  ['a', 'c', 'e']
+#  ['e', 'l', 'i']
+#  ['f', 'n', 'k']]
 def sort_columns(matrix):
     transposed_matrix = [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
 

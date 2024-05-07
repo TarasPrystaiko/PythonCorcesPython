@@ -1,3 +1,14 @@
+# Find the sum and product of the elements of the list greater than the number MIN and less than the number MAX (both boundaries inclusive).
+#
+# If there are no such elements, print None object for both the sum and the product.
+#
+#Output
+# lst = [2, 4, 6, 2, 1, 1, 9, 4, 6]
+# MIN = 3
+# MAX = 6
+# ...
+# sum_ = 20, product = 576
+
 def categorize_numbers(numbers):
     divisible_by_3_not_5 = []
     divisible_by_5_not_3 = []
