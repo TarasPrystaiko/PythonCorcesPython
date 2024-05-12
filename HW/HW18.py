@@ -1,18 +1,27 @@
-test_designers = ["Alice", "Bob", "Charlie", "David"]
-test_script_writers = ["Bob", "Charlie", "Eve", "Frank"]
-script_reviewers = ["Alice", "Charlie", "Grace"]
-out_of_work_today = ["David", "Eve", "Frank"]
+# Define lists of testers for each group
+test_design_writers = [1, 3, 5]
+test_scripters = [2, 3, 4, 6, 7, 8]
+reviewers = [1, 2, 3, 9, 10]
+out_of_office_today = [2, 5, 6, 1]
 
-all_testers = sorted(set(test_designers + test_script_writers + script_reviewers))
+# All testers in the team
+all_testers = sorted(set(test_design_writers + test_scripters + reviewers))
 
-script_writers_only = sorted(set(test_script_writers) - set(test_designers + script_reviewers))
+# Testers who can only write scripts
+scripters_only = sorted(set(test_scripters) - set(test_design_writers) - set(reviewers))
 
-working_today = sorted(set(all_testers) - set(out_of_work_today))
+# Testers who are at work today
+working_today = sorted(set(all_testers) - set(out_of_office_today))
 
-write_and_review_today = sorted(set(test_script_writers) & set(script_reviewers) & set(working_today))
+# Testers who could write and review scripts, and are at work today
+write_and_review_today = sorted(set(test_scripters) & set(reviewers) & set(working_today))
 
 # Print the results
-print("All testers in the team:", all_testers)
-print("Testers who can only write scripts:", script_writers_only)
-print("Testers who are at work today:", working_today)
-print("Testers who could write and review scripts, and are at work today:", write_and_review_today)
+print("All testers in the team:")
+print(all_testers)
+print("\nTesters who can only write scripts:")
+print(scripters_only)
+print("\nTesters who are at work today:")
+print(working_today)
+print("\nTesters who could write and review scripts, and are at work today:")
+print(write_and_review_today)
