@@ -14,7 +14,10 @@ scripters_only = sorted(set(test_scripters) - set(test_design_writers) - set(rev
 working_today = sorted(set(all_testers) - set(out_of_office_today))
 
 # Testers who could write and review scripts, and are at work today
+
 write_and_review_today = sorted(set(test_scripters) & set(reviewers) & set(working_today))
+
+# write_and_review_today = sorted(set(working_today).intersection(set(reviewers),set(test_scripters)))
 
 # Print the results
 print("All testers in the team:")
