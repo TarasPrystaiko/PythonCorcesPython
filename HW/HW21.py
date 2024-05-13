@@ -11,7 +11,4 @@ def combine_files(source_directory, output_file):
                             content = file.read()
                             combined_file.write(f"{file_name}: {content}\n")
 
-# Example usage:
-source_directory = '/path/to/source_directory'
-output_file = 'combined_files.txt'
-combine_files(source_directory, output_file)
+
