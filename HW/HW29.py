@@ -8,6 +8,6 @@ def flatten(lst):
     return flat_list
 
 # Test the function
-lst = [1, 2, [3, 4, [5, 6], 7], 8, [9, [10]], 11]
-result = flatten(list)
+nested_list = [1, [2, 3], [4, [5, 6]], 7, [8, [9, 10]]]
+result = flatten(nested_list)
 print(result)
