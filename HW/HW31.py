@@ -26,7 +26,7 @@ def extract_hrefs_regex(file_path):
     hrefs = re.findall(r'<a [^>]*href="([^"]*)"', content)
     return hrefs
 
-file_path = '/mnt/data/wiki_page.txt'
+file_path = 'wiki_page.txt'
 hrefs_string_methods = extract_hrefs_string_methods(file_path)
 print("Using string methods:", hrefs_string_methods)
 
