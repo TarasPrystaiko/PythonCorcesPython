@@ -28,8 +28,12 @@ class User:
 
 john = User('John', 23)
 anna = User('Anna', 34)
+anna1 = User('Anna', 34)
+
 print(john)
 print(anna)
+print(anna1)
+
 
 user_list = [john, anna]
 print(user_list)
