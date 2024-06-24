@@ -1,22 +1,22 @@
-# from L18.phonebook.contact import Contact
-# import pytest
-#
+from L18.phonebook.contact import Contact
+import pytest
+
 def add(a, b):
     return a + b
 
-def test_add():
-    #observed
-    assert add(3,5) == 9 f"Expected to get 9, but got {add(3.5)}"
-
 # def test_add():
-#     observed = add(3, 5)
-#     assert observed == 9, f"Expected to get 9, but got {observed}"
+#     #observed
+#     assert add(3,5) == 9 f"Expected to get 9, but got {add(3.5)}"
+
+def test_add():
+    observed = add(3, 5)
+    assert observed == 9, f"Expected to get 9, but got {observed}"
 
 
-# def test_contact_name():
-#     expected_name = 'John'
-#     contact = Contact(name=expected_name)
-#     assert contact.name == expected_name
+def test_contact_name():
+    expected_name = 'John'
+    contact = Contact(name=expected_name)
+    assert contact.name == expected_name
 
 #
 # def test_nominal_bmi():
