@@ -14,7 +14,7 @@ import platform
 def test_related_to_linux():
     assert 1 == 1
 
-@pytest.mark.skipif(condition=platform.uname().system != 'windows', reason="This test related to Windows only")
+@pytest.mark.skipif(condition=platform.uname().system != 'Windows', reason="This test related to Windows only")
 def test_related_to_windows():
     assert 1 == 1
 
